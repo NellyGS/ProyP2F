@@ -7,12 +7,18 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>MdnOL</ion-title>
+    <ion-title>Track</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
-<ion-content padding>
+<ion-content padding style = "background-color: #82A3A1">
+    <ion-list style = "background-color: #82A3A1">
+
+        <ion-item style = "background-color: #98B3B2" *ngFor = "let cancion of cancionesMd" >
+          {{cancion}}
+        </ion-item>
+       </ion-list>  
 
 </ion-content>

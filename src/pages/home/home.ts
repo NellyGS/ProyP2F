@@ -10,6 +10,8 @@ import { BiotcPage } from '../biotc/biotc';
 import { BioavPage } from '../bioav/bioav';
 import { MitAlPage } from '../mit-al/mit-al';
 import { DivLPage } from '../div-l/div-l';
+import { MdnOlPage } from '../mdn-ol/mdn-ol';
+import { AviLPage } from '../avi-l/avi-l';
 
 @Component({
   selector: 'page-home',
@@ -26,6 +28,8 @@ export class HomePage {
   bioav = BioavPage
   MitAL = MitAlPage
   DivL =  DivLPage
+  MdnOL = MdnOlPage
+  AviL = AviLPage
 
   constructor(public navCtrl: NavController) {
   }
@@ -68,5 +72,14 @@ export class HomePage {
   clickDivl(){
     this.navCtrl.push(this.DivL);
   }
+  clickMdnOL(){
+    this.navCtrl.push(this.MdnOL);
+  }
+
+  clickAviL(){
+    this.navCtrl.push(this.AviL);
+  }
+
+  
 
 }

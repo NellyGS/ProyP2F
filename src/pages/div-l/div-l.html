@@ -14,18 +14,10 @@
 
 
 <ion-content padding style = "background-color: #465362">
-    <ion-item-divider style ="background-color: #82A3A1; color: white ">1.- Eraser (3:37)</ion-item-divider>
-    <ion-item-divider style ="background-color: #82A3A1; color: white ">2.- Castle on the Hill (4:21)</ion-item-divider>
-    <ion-item-divider style ="background-color: #82A3A1; color: white ">3.- Dive (3:58)</ion-item-divider>
-    <ion-item-divider style ="background-color: #82A3A1; color: white ">4.- Shape of you (3:53)</ion-item-divider>
-    <ion-item-divider style ="background-color: #82A3A1; color: white ">5.- Perfect (4:23)</ion-item-divider>
-    <ion-item-divider style ="background-color: #82A3A1; color: white ">6.- Galway girl (2:50)</ion-item-divider>
-    <ion-item-divider style ="background-color: #82A3A1; color: white ">7.- Happier (3:27)</ion-item-divider>
-    <ion-item-divider style ="background-color: #82A3A1; color: white ">8.- New man (3:09)</ion-item-divider>
-    <ion-item-divider style ="background-color: #82A3A1; color: white ">9.- Heart don't break around here (4:08)</ion-item-divider>
-    <ion-item-divider style ="background-color: #82A3A1; color: white ">10.- What do I know (4:23)</ion-item-divider>
-    <ion-item-divider style ="background-color: #82A3A1; color: white ">11.- How would you feel (4:40)</ion-item-divider>
-    <ion-item-divider style ="background-color: #82A3A1; color: white ">12.- Supermarket Flowers (3:41)</ion-item-divider>
-
+    <ion-list style = "background-color: #011936">
+        <ion-item style = "background-color: #67727E" *ngFor = "let cancion of cancionesD" >
+          {{cancion}}
+        </ion-item>
+       </ion-list> 
 
 </ion-content>

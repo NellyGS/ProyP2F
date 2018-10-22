@@ -18,6 +18,8 @@ import { BiotcPage } from '../pages/biotc/biotc';
 import { BioavPage } from '../pages/bioav/bioav';
 import { MitAlPage } from '../pages/mit-al/mit-al';
 import { DivLPage } from '../pages/div-l/div-l';
+import { MdnOlPage } from '../pages/mdn-ol/mdn-ol';
+import { AviLPage } from '../pages/avi-l/avi-l';
 
 @NgModule({
   declarations: [
@@ -33,7 +35,9 @@ import { DivLPage } from '../pages/div-l/div-l';
     BiotcPage,
     BioavPage,
     MitAlPage,
-    DivLPage
+    DivLPage,
+    MdnOlPage, 
+    AviLPage
   ],
   imports: [
     BrowserModule,
@@ -53,7 +57,9 @@ import { DivLPage } from '../pages/div-l/div-l';
     BiotcPage,
     BioavPage,
     MitAlPage,
-    DivLPage
+    DivLPage,
+    MdnOlPage, 
+    AviLPage
 
   ],
   providers: [
