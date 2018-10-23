@@ -12,6 +12,10 @@ import { MitAlPage } from '../mit-al/mit-al';
 import { DivLPage } from '../div-l/div-l';
 import { MdnOlPage } from '../mdn-ol/mdn-ol';
 import { AviLPage } from '../avi-l/avi-l';
+import { MitaOPage } from '../mita-o/mita-o';
+import { DivOPage } from '../div-o/div-o';
+import { MdnoOPage } from '../mdno-o/mdno-o';
+import { AviOPage } from '../avi-o/avi-o';
 
 @Component({
   selector: 'page-home',
@@ -30,6 +34,10 @@ export class HomePage {
   DivL =  DivLPage
   MdnOL = MdnOlPage
   AviL = AviLPage
+  MitaO = MitaOPage
+  DivO = DivOPage
+  MdnoO = MdnoOPage
+  AviO = AviOPage  
 
   constructor(public navCtrl: NavController) {
   }
@@ -78,6 +86,22 @@ export class HomePage {
 
   clickAviL(){
     this.navCtrl.push(this.AviL);
+  }
+
+  clickMitAO (){
+    this.navCtrl.push(this.MitaO);
+  }
+  
+  clickDivO (){
+    this.navCtrl.push(this.DivO);
+  }
+
+  clickMdnoO (){
+    this.navCtrl.push(this.MdnoO);
+  }
+
+  clickAviO () {
+    this.navCtrl.push(this.AviO); 
   }
 
   

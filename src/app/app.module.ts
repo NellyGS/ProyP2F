@@ -20,6 +20,10 @@ import { MitAlPage } from '../pages/mit-al/mit-al';
 import { DivLPage } from '../pages/div-l/div-l';
 import { MdnOlPage } from '../pages/mdn-ol/mdn-ol';
 import { AviLPage } from '../pages/avi-l/avi-l';
+import { MitaOPage } from '../pages/mita-o/mita-o';
+import { DivOPage } from '../pages/div-o/div-o';
+import { MdnoOPage } from '../pages/mdno-o/mdno-o';
+import { AviOPage } from '../pages/avi-o/avi-o';
 
 @NgModule({
   declarations: [
@@ -37,7 +41,11 @@ import { AviLPage } from '../pages/avi-l/avi-l';
     MitAlPage,
     DivLPage,
     MdnOlPage, 
-    AviLPage
+    AviLPage,
+    MitaOPage,
+    DivOPage,
+    MdnoOPage, 
+    AviOPage
   ],
   imports: [
     BrowserModule,
@@ -59,7 +67,11 @@ import { AviLPage } from '../pages/avi-l/avi-l';
     MitAlPage,
     DivLPage,
     MdnOlPage, 
-    AviLPage
+    AviLPage, 
+    MitaOPage,
+    DivOPage, 
+    MdnoOPage,
+    AviOPage
 
   ],
   providers: [
